@@ -47,7 +47,7 @@ $(SUBDIRS): dummy
 DEFINCL = $(INCLUDE_PATH) $(DEFINES) $(OPTIONS)
 
 .cpp.o:
-	$(CXX) -c $(CXXFLAGS) $(CXXEXTRA) $(DEFINCL) -o $@ $<
+	$(CXX) -Os -c $(CXXFLAGS) $(CXXEXTRA) $(DEFINCL) -o $@ $<
 
 # Rules for cleaning
 
