@@ -1,6 +1,7 @@
 #pragma once
 
-#include <string>
+//#include <string>
+#include <cstring>
 #include <list>
 
 enum ErrorSeverity { FATALERROR = 0, WARNING };

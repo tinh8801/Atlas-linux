@@ -1,5 +1,6 @@
 #include "stdafx.h"
-#include <string>
+//#include <string>
+#include <cstring>
 #include <map>
 #include <vector>
 #include "GenericVariable.h"

@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include <map>
-#include <string>
+//#include <string>
+#include <cstring>
 #include <list>
 #include <fstream>
 #include <sstream>

@@ -2,7 +2,8 @@
 
 #include "stdafx.h"
 #include <iostream>
-#include <string>
+//#include <string>
+#include <cstring>
 #include <vector>
 #include <fstream>
 #include <map>
@@ -70,7 +71,8 @@ extern int MaxEmbPtr;
 extern AtlasCore Atlas;
 
 // Misc functions
-inline unsigned int StringToUInt(std::string& NumberString);
+//inline unsigned int StringToUInt(std::string& NumberString);
+unsigned int StringToUInt(std::string& NumberString);
 __int64 StringToInt64(std::string& NumberString);
 unsigned int GetHexDigit(char digit);
 unsigned int EndianSwap(unsigned int Num, int Size);

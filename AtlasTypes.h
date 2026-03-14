@@ -1,7 +1,8 @@
 #pragma once
 
 #include <map>
-#include <string>
+//#include <string>
+#include <cstring>
 
 /* Misc Functions */
 static const unsigned int CMD_JMP1 = 0;

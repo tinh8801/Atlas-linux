@@ -4,7 +4,8 @@
 //-----------------------------------------------------------------------------
 
 #include "stdafx.h"
-#include <string>
+//#include <string>
+#include <cstring>
 #include <cmath>
 #include <vector>
 #include <iostream>
@@ -170,7 +171,8 @@ void AtlasCore::PrintStatistics()
 		char buf[127];
 		for (ListStatsIt i = Stats.Stats.begin(); i != Stats.Stats.end(); i++)
 		{
-			_snprintf(buf, 127, "Block %d", blocknum);
+			//_snprintf(buf, 127, "Block %d", blocknum);
+			snprintf(buf, 127, "Block %d", blocknum);
 			PrintStatisticsBlock(buf, *i);
 			blocknum++;
 		}
