@@ -23,8 +23,8 @@ int main(int argc, char* argv[])
 	Logger.SetLogStatus(false);
 	StartTime = clock();
 	printf("Atlas 1.12 by Klarth\n");
-	printf("Biên dịch cho Linux bởi Huy Thắng\n");
-	//int m = setmode(fileno(stdout), old_mode); // trả về mode cũ
+	printf("Port code to Linux by Huy Thắng\n");
+	
 	if (argc != 3 && argc != 5)
 	{
 		printf("Sử dụng: %s [tham số] ROM.ext Script.txt\n", argv[0]);
